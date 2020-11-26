@@ -40,7 +40,7 @@ public class Main {
 
 	}
 
-	public static int display()
+	public static String display()
 	{
 		return "Welcome to Feature-2 branch";
 	}
