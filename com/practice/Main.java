@@ -2,6 +2,7 @@ package com.practice;
 
 public class Main {
 	public static void main(String[] args) {
+		System.out.println("Display: " + display());
 		System.out.println("Addition: " + add(10,10));
 		System.out.println("Subtraction: " + sub(10,10));
 		System.out.println("Multiplication: " + mul(10,10));
@@ -38,5 +39,11 @@ public class Main {
 		return x % y;
 
 	}
+
+	public static int display()
+	{
+		return "Welcome to Feature-2 branch";
+	}
+	
 
 }
